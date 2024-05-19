@@ -1,0 +1,46 @@
+Nama : Habib Khoiryan
+NPM : 233210136
+Kelas : 2E
+
+Diketahui my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Soal No 1
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list.insert(5, 5)
+print(my_list,"\n")
+
+Soal No 2
+my_list= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list.remove(4)
+print(my_list,"\n")
+
+Soal No 3
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list_yang_keluar = 5
+baris_pertama = my_list[:2]
+baris_kedua = my_list[5:]
+print(baris_pertama)
+print(baris_kedua,"\n")
+
+Soal No 4
+my_list= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+third_index = len(my_list) // 3
+second_index = third_index * 2
+baris_pertama = my_list[:third_index]
+baris_kedua = my_list[third_index : second_index]
+baris_ketiga = my_list[second_index:]
+print(baris_pertama)
+print(baris_kedua)
+print(baris_ketiga,"\n")
+
+Soal No 5
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list3 = [7,8,9,10]
+gabungan = list1 + list2 +list3
+print(gabungan,"\n")
+
+Soal No 6
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+panggil = my_list [0:6:3]
+print (panggil)
